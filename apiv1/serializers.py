@@ -4,6 +4,7 @@ from shop.models import Book
 
 
 class BookSerializer(serializers.ModelSerializer):
+    """本モデル用のシリアライザ"""
 
     class Meta:
         model = Book
